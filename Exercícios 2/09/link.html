@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+    /*
+    SELETORES PERSONAIZADOS
+    # = id
+    . = class
+    : = pseudo-class
+    :: = pseudo-elementos
+    > = clildren
+    */
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      a {
+        color: brown;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      a:visited {
+        color: red;
+      }
+      a:hover {
+        color: black;
+        text-decoration: underline;
+      }
+      a:active {
+        color: blue;
+      }
+      .especial::after {
+        content:'⊳' ;
+      }
+      .especial::before {
+        content: '⊲';
+        
+      }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/aulas/modulo-2-2/modulos/capitulo-15-aula-04-pseudo-elementos-em-css/" target="_blank" class="especial">Repositório</a></li>
+        <li><a href="https://www.youtube.com/" target="_blank">Youtube</a></li>
+        <li><a href="https://www.rhportal.com.br/artigos-rh/descubra-o-que-e-um-cho/" target="_blank">Site</a></li>
+    </ul>
+</body>
+</html>

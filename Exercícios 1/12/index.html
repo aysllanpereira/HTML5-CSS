@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon-16x16.png" type="image/x-icon">
+    <title>Mídias no HTML5</title>
+</head>
+<body>
+    <h1>Usando Imagens Dinâmicas</h1>
+     <p>Tente abrir em vários dispositivos diferentes</p>
+      <picture>
+        <source media="(750px)" srcset="imagem1.pn
+        " type="image/png">
+        <source media="(min-width: 1050px)" srcset="imagem3.png" type="image/png">
+        <img src="imagem2.png" alt="imagem flexível">
+      </picture>
+      <h1>Reproduzindo audio no html5</h1>
+      <audio>
+        <source src="audio.ogg" type="audio/ogg">
+      </audio>
+      <p>Infelizmente o navegador não é compativel com o arquivo</p>
+        <p><a href="Midia/audio.ogg">Clique aqui</a> para baixar</p>
+
+      <h1>Inserindo videos hospedados localmene</h1>
+      <p>Esse video está hospedado no meu próprio servidor</p>
+      <video controls>
+        <source src="Midia/video.mkv.mkv" type="video/mkv">
+        <source src="Midia/video.mp4.mp4" type="video/mp4">
+        <source src="Midia/video.webm.webm" type="video/webm">
+        <p>Seu navegador não tem compatibilidade com representação de vídeos</p>
+     </video>
+     <h1>Inserindo videos do YouTube</h1>
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/WR71qgv6L-o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+     <h1>Inserindo videos do Vímeo</h1>
+     <iframe title="vimeo-player" src="https://player.vimeo.com/video/783453158?h=bca8b328e2" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
+
+
+</body>
+</html>
