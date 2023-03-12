@@ -13,7 +13,7 @@
 @font-face {
     font-family: "Android";
     src: url("../fontes/idroid.otf") format("opentype");
-    font-weight: normal;
+    font-weight: normal; 
 }
 :root {
    --cor0: #C5ebd6;
