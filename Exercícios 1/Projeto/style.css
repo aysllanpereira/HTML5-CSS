@@ -67,7 +67,7 @@ header > p {
     padding-right: 8px;
     padding-left: 8px;
     margin: auto;
-    margin-bottom: 35px;
+    padding-bottom: 45px;
 }
 nav {
     background-color: #063d1e;
@@ -101,7 +101,7 @@ main img {
     width: 100%;
 }
 main img.pequena {
-      max-width: 350px;
+      max-width: 250px;
       display: block;
       margin: auto;
 } 
