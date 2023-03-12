@@ -106,19 +106,19 @@ main img.pequena {
       margin: auto;
 } 
 div.video {
-    background-color: #1a5c37;
+    background-color: #2c6946;
     margin: 0px -20px 30px -20px;
     padding: 15px;
     padding-bottom: 50%;
-
     position: relative;
 }
 div.video > iframe {
     position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 5,5%;
+    left: 6%;
     width: 85%;
     height: 85%;
+    
    
 }
 main h1 {
