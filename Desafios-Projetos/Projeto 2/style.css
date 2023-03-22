@@ -7,6 +7,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-size: 0.8em;
 }
 :root {
     --fonte1: Verdana, Tahoma, sans-serif;
@@ -18,15 +19,12 @@ html, body {
     background-color: aliceblue;
     font-family: var(--fonte1);
 }
-
-    
 header {
     background-color: black;
     color: white;
     text-align: center;
     font-family: var(--fonte2);
 }
-
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
@@ -35,12 +33,18 @@ header > h1 {
     font-weight: bold;
     
 }
-
-
 header > p {
     padding-bottom: 50px;
     font-size: 1.5em;
     
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
 }
 a {
     color: white;
@@ -59,6 +63,9 @@ section {
     font-size: 3.5vw;
     display: block;
 }
+section > p {
+    padding-bottom: 2em;
+}
 section.normal {
     background-color: white;
     color: black;
@@ -71,9 +78,10 @@ section.imagem > p {
 section.imagem {
     background-color: rgb(51, 49, 49);
     color: white;
-    box-shadow: inset 8px 8px 10px 0px rgba(0, 0, 0, 0.473);
+    box-shadow: inset 8px 8px 15px 0px rgba(0, 0, 0, 0.473);
     background-size: cover;
     background-attachment: fixed;
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.651);
 }
 section#imagem01 {
     background-image: url(imagens/background001.jpg);
