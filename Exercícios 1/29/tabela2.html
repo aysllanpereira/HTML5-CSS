@@ -11,6 +11,18 @@
         }
         table {
             width: 350px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        caption {
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            padding: 8px;
+            background-color: rgb(150, 136, 136);
+        }
+        caption:hover {
+            color: rgb(152, 68, 155);
+            background-color: rgb(82, 40, 40);
         }
         td, th {
             border: 1.5px solid black;
@@ -22,6 +34,14 @@
         thead, tfoot {
             background-color: grey;
             color: aliceblue;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: grey;
+        }
+        tbody > tr:nth-child(2n) {
+            background-color: rgb(155, 154, 154);
         }
         #rod {
             font-weight: bold;
@@ -55,10 +75,11 @@
             TR, TD, TH     
     -->
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
-            <th>Estado</th>
-            <th>População</th>
+            <th scope="col">Estado</th>
+            <th scope="col">População</th>
             </tr>
         </thead>
         <tbody>
@@ -76,15 +97,52 @@
                 <td>Rio de Janeiro</td>
                 <td class="num">98 784 026</td>
             </tr>
+            <br>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">98 784 026</td>
+            </tr>
+            <br>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">98 784 026</td>
+            </tr>
+            <br>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">98 784 026</td>
+            </tr>
+            <br>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">98 784 026</td>
+            </tr>
+            <br>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">98 784 026</td>
+            </tr>
+            <br>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">98 784 026</td>
+            </tr>
 
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="num" id="rod">210 147 225</td>
             </tr>
 
         </tfoot>
-    </table>    
+    </table>   
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga deleniti, iure, laboriosam earum animi quae voluptas tempore corrupti ab maxime doloribus perspiciatis ullam. Tempore itaque temporibus amet ratione voluptatem natus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi dolores accusamus delectus hic quod debitis tempora repudiandae animi sint rem! Aliquam perspiciatis laborum unde voluptas delectus non nam quos enim? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, quam! Et vero dolor commodi nihil! Fugiat cum sunt aspernatur unde veritatis error sed odit, dicta ipsa voluptatibus eaque dolores doloribus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsam aperiam odio impedit quo. Earum beatae aut debitis minus, vel deserunt magnam aliquid minima repellendus adipisci in accusamus molestiae non?</p> 
+    <br>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga deleniti, iure, laboriosam earum animi quae voluptas tempore corrupti ab maxime doloribus perspiciatis ullam. Tempore itaque temporibus amet ratione voluptatem natus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi dolores accusamus delectus hic quod debitis tempora repudiandae animi sint rem! Aliquam perspiciatis laborum unde voluptas delectus non nam quos enim? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, quam! Et vero dolor commodi nihil! Fugiat cum sunt aspernatur unde veritatis error sed odit, dicta ipsa voluptatibus eaque dolores doloribus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsam aperiam odio impedit quo. Earum beatae aut debitis minus, vel deserunt magnam aliquid minima repellendus adipisci in accusamus molestiae non?</p>
+    <br>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga deleniti, iure, laboriosam earum animi quae voluptas tempore corrupti ab maxime doloribus perspiciatis ullam. Tempore itaque temporibus amet ratione voluptatem natus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi dolores accusamus delectus hic quod debitis tempora repudiandae animi sint rem! Aliquam perspiciatis laborum unde voluptas delectus non nam quos enim? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, quam! Et vero dolor commodi nihil! Fugiat cum sunt aspernatur unde veritatis error sed odit, dicta ipsa voluptatibus eaque dolores doloribus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsam aperiam odio impedit quo. Earum beatae aut debitis minus, vel deserunt magnam aliquid minima repellendus adipisci in accusamus molestiae non?</p>
+    <br>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga deleniti, iure, laboriosam earum animi quae voluptas tempore corrupti ab maxime doloribus perspiciatis ullam. Tempore itaque temporibus amet ratione voluptatem natus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi dolores accusamus delectus hic quod debitis tempora repudiandae animi sint rem! Aliquam perspiciatis laborum unde voluptas delectus non nam quos enim? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, quam! Et vero dolor commodi nihil! Fugiat cum sunt aspernatur unde veritatis error sed odit, dicta ipsa voluptatibus eaque dolores doloribus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsam aperiam odio impedit quo. Earum beatae aut debitis minus, vel deserunt magnam aliquid minima repellendus adipisci in accusamus molestiae non?</p>
 </body>
 </html>
