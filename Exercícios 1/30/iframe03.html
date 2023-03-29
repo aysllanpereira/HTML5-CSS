@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de Iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 350px;
+            height: 350px;
+            border: 1.5px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça sua escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, adipisci vel. In vero vel, est aliquam necessitatibus mollitia, iusto quidem quam a saepe praesentium, nobis perferendis quod aut consequatur dicta.</p>
+
+    <ul>
+        <li><a href="paginas-extras/iframe01.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/iframe02.html" target="frame">Segunda página</a></li>
+
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit autem libero a nesciunt itaque eaque ipsum expedita consectetur, reprehenderit nisi vero quasi unde praesentium non voluptas cum totam deleniti est!</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis libero repellat, culpa possimus vero id debitis rem deleniti incidunt harum aperiam sit quod at itaque, sequi quasi obcaecati? Enim, dicta? Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>" frameborder="0">
+        <p>Seu navegador não é compatível</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis libero repellat, culpa possimus vero id debitis rem deleniti incidunt harum aperiam sit quod at itaque, sequi quasi obcaecati? Enim, dicta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore quaerat minima numquam repellendus exercitationem soluta, facilis corrupti deleniti, ab impedit sed nulla alias eos culpa expedita veritatis voluptatum fugit. Voluptate!</p>
+</body>
+</html>
