@@ -12,20 +12,30 @@
     <p>Outro ponto importante é que toda alteração feita no arquivo .html deve ser salva e, além disso, o navegador precisa recarregar a página para que a última alteração do arquivo entre em vigor.</p>
 
     <script>
-        alert("Eu chego lá!");
-        document.write ("A idade de Aysllan é: " + (42-20) + "<br>");
-        document.write ("A idade de Aryelle é: "+ (47-20) + "<br>");
-        document.write ("A idade de Ayalla é: " + (105-50) + "<br>");
+        var ano = 2019;
+
+        document.write("A idade de Aysllan é: " + (ano - 2000) + "<br>");
+        document.write ("A idade de Aryelle é: "+ (ano - 1994) + "<br>");
+
+        ano = 2018
+        document.write("A idade de Ayalla é: " + (ano - 1990)+ "<br>");
         document.write((200 + 100 + 300 + 400)/4);
 
-        document.write("A média do valor gasto com as viagens é" + "<br>") ;
-        document.write ( (200 + 100 + 300 + 400) / 4 + "<br>");
-        document.write(12 + " anos");
-        
-       
-    
+        document.write("A média do valor gasto com as viagens é: ");
+        document.write((200 + 100 + 300 + 400) / 4 + "<br>");
+        document.write(12 + " anos" + "<br>");
 
-    
+        var idadeAysllan = 19;
+        var idadeAryelle = 25;
+        var idadeAyalla = 28;
+
+        var media = (idadeAysllan + idadeAryelle + idadeAyalla)/3;
+        document.write ('A média das idades é ' + Math.round(media) + "<br>");
+
+        var nome = "Aysllan";
+
+        document.write("A idade de " + nome + " é " + idadeAysllan);
     </script>
+
 </body>
 </html>

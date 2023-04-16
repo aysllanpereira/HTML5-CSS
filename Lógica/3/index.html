@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Álcool ou Gasolina?</h1>
+
+    <script>
+        function mostra(aysllan) {
+
+            document.write(aysllan);
+            puloDeLinha();
+        }
+
+        function puloDeLinha() {
+
+            document.write("<br><br>");
+        }
+
+
+        var tanque = 40; 
+        
+
+        var caminhoComGasolina = 480;
+        var consumoDeGasolina = caminhoComGasolina/tanque;
+
+        var cainhoComAlcool = 300;
+        var consumoDeAlcool = cainhoComAlcool/tanque;
+
+        mostra("O consumo de Gasolina é " + consumoDeGasolina + "km/L" )
+
+        mostra("O consumo de Álcool é " + consumoDeAlcool + "km/L" )
+
+
+        function pulaLinha() {
+            document.write("<br>");
+        }
+
+        function exibir(diferenca) {
+            document.write(diferenca);
+        }
+
+        var idadeMedia = 28;
+        var anoAtual = 2022;
+        var quantidadeGeracoes = (anoAtual - 1500)/idadeMedia;
+
+        exibir(quantidadeGeracoes);
+       
+
+        
+
+
+    </script>
+</body>
+</html>
