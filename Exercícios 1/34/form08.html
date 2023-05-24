@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+
+    <form action="cadastro.js" method="get" autocomplete="off">
+
+        <div>
+            <label for="inum">Número 1</label>
+            <input type="number" name="num" id="inum" min="1" max="20" required 
+            oninput="isoma.innerHTML= Number(inum.value) + Number(in2.value)">
+            
+            
+        </div>
+
+        <div>
+            <label for="in2">Número 2</label>
+            <input type="number" name="n2" id="in2" min="1" max="20" 
+            oninput="isoma.innerHTML= Number(inum.value) + Number(in2.value)">
+        </div>
+
+        <div>
+            <label for="isoma">Soma:</label>
+            <output name="soma" id="isoma">0</output>
+        </div>
+
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+
+    </form>
+    
+</body>
+</html>
