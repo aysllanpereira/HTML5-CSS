@@ -1,6 +1,9 @@
 @charset "UTF-8";
 
 /* declarações gerais */
+@media all {
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -19,6 +22,8 @@ h1 {
     color: aliceblue;
     text-shadow: 3px 3px 0px #1526a7;
     padding: 8px;
+}
+
 }
 
 /* declarações retrato */
