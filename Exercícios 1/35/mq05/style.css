@@ -60,12 +60,13 @@ menu > ul > li > a:hover {
 
 main {
     width: 90vw;
-    background-color: aliceblue;
+    background-color: rgb(158, 158, 158);
     margin: auto;
     margin-top: 8px;
     padding: 8px;
     border-radius: 10px;
 }
+
 
 article > h2 {
     padding-bottom: 20px;
