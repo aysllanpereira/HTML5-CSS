@@ -25,14 +25,15 @@ i#burger {
     display: block;
     text-align: center;
     padding: 10px;
+    cursor: pointer;
 
 }
 
 i#burger:hover {
     background-color: rgb(224, 224, 224);
-    color: rgb(223, 4, 4);
+    color: black;
+    
 }
-
 
 menu {
     display: none;
